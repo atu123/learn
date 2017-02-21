@@ -6,7 +6,7 @@
   <artifactId>learn</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>design</module>
+    <module>patterns</module>
   </modules>
   <packaging>pom</packaging>
 
