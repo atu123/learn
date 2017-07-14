@@ -10,6 +10,9 @@
     <module>JVM</module>
     <module>JVM</module>
     <module>algorithms</module>
+    <module>realtime-stat</module>
+    <module>realtime-stat</module>
+      <module>javaapi</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>algorithms</artifactId>
+    <artifactId>javaapi</artifactId>
     <packaging>jar</packaging>
 
-    <name>algorithms</name>
+    <name>javaapi</name>
     <url>http://maven.apache.org</url>
 
     <properties>
