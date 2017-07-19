@@ -3,7 +3,7 @@ package cc.atu123.learn.algorithms.sort;
 /**
  * Created by lichongwang on 2017/7/17.
  */
-public class MaopaoSort extends SortBase{
+public class BubbleSort extends SortBase{
     public static void main(String[] args) {
         int [] array = {8,2,5,3,4,6,7,1,9,0};
         print("原数组：",array);

@@ -3,7 +3,7 @@ package cc.atu123.learn.algorithms.sort;
 /**
  * Created by lichongwang on 2017/7/17.
  */
-public class GuibingSort extends SortBase {
+public class MergeSort extends SortBase {
     /**
      * The entry point of application.
      *
