@@ -10,5 +10,7 @@ public class Test {
         list.add("b");
         list.add("c");
         list.remove(1);
+        list.remove(1);
+        System.out.println(list.size());
     }
 }
