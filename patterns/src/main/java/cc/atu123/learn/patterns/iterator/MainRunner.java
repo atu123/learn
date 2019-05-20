@@ -12,7 +12,7 @@ import java.util.Iterator;
 public class MainRunner {
     public static void main(String[] args) {
         ArrayList<String> strings = new ArrayList<String>();
-        Iterator<String> iterator = strings.iterator();
+        //Iterator<String> iterator = strings.iterator();
 
         MyArrayList<String> stringMyArrayList = new MyArrayList<String>();
         System.out.println(stringMyArrayList.size());

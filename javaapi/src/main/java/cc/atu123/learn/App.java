@@ -27,6 +27,8 @@ public class App
         thread2.start();*/
         DateTimeFormatter yyyyMMdd = DateTimeFormatter.ofPattern("yyyyMMdd");
         System.out.println(yyyyMMdd.format(LocalDate.parse("20171206", yyyyMMdd).minusDays(1l)));
+
+        //DateTimeFormatter
     }
 }
 

@@ -8,6 +8,8 @@ package cc.atu123.learn.patterns.proxy;
  */
 public class MainRunner {
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
+
+
         Sourceable source = new MyProxy();
         source.method();
         System.out.println("********** dynamic proxy **********");
@@ -19,5 +21,6 @@ public class MainRunner {
         CglibProxy cglibProxy = new CglibProxy();
         Sourceable cglibSource = (Sourceable)cglibProxy.getProxyInstance(Source.class);
         cglibSource.method();
+
     }
 }

@@ -18,6 +18,7 @@ public class MyProxyHandler implements InvocationHandler {
         System.out.println("after method");
         return result;
     }
+
     public Object getProxyInstance(Class clazz) throws IllegalAccessException, InstantiationException {
         this.proxy = clazz.newInstance();
         return Proxy.newProxyInstance(clazz.getClassLoader(),clazz.getInterfaces(),this);
